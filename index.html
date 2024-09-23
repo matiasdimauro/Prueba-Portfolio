@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matias Di Mauro</title>
+    <link rel="stylesheet" href="style.css">
+
+ 
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="#presentacion">Presentación</a></li>
+            <li><a href="#informacion">Info</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Social</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="presentacion" class="seccion">
+        <h1>Matías Ezequiel Di Mauro
+        </h1>
+        <img src="https://scontent.fepa5-1.fna.fbcdn.net/v/t39.30808-6/300590787_7668566703190641_7030093055209714721_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGeTZ2Np6WMoqbTESeDu9-cpivABJCtI9SmK8AEkK0j1FD3uJhsVepHnGSnEmnWS7oe0qo7d6wK2D8V9tTv4_fN&_nc_ohc=ctqzxU2nSIAQ7kNvgGDu7fa&_nc_ht=scontent.fepa5-1.fna&oh=00_AYDDShDdJzxxtV5Os0AIsUN1M8rprSlDwrHlps89-ELN0A&oe=66F6748A"" alt="Foto de Presentación" style="display: grid; grid-template-columns: auto 1fr; grid-gap: 10px;border-radius: 50%; border: 2px solid lightcoral; width: 125px; height: 175px;">
+        <p>Tecnicatura en Programación en Universidad Tecnológica Nacional. (UTN-FRGP).</p>
+    </section>
+
+    <section id="informacion" class="seccion">
+        <h2>Info</h2>
+        <p>Hello! My name is Matías, I am 25 years old, and my main goal is to improve myself day by day in this field.</p>
+        <p>Hola! Me llamo Matías, tengo 25 años, y mi meta principal es superarme día a día en éste rubro.</p>
+    </section>
+
+    <section id="skills" class="seccion">
+        <h2>Skills</h2>
+        <ul>
+            <li>C++</li>
+            <li>C#</li>
+            <li>ASP. NET</li>
+            <li>HTML y CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="proyectos" class="seccion">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Sistema de gestión.</h3>
+            <p>Como proyecto universitario dos personas desarrollamos en C++ un sistema de gestión para una pequeña carpintería, donde se pueden manejar desde presupuestos, fechas de entrega y stock de material hasta salarios e información de los empleados.</p>
+        
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 2</h3>
+            <p>Aún en desarrollo...</p>
+        </div>
+    </section>
+
+    <section id="redes" class="seccion">
+        <h2>Social</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/matiasdimauro/">LinkedIn   <img src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png"alt="LinkedIn" width="40" height="40"> </a></li>
+            <li><a href="https://github.com/matiasdimauro">GitHub   <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"alt="LinkedIn" width="25" height="25"> </a></li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre/Name:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje/Message:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar/Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Matias Ezequiel Di Mauro - Portfolio 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
